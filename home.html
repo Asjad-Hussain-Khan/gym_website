@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
-<h1>Welcome to Gym Management</h1>
-<img src="/static/images/gym1.jpg" alt="Gym">
-<p>Your fitness journey begins here!</p>
+<h1>Welcome to Our Website!</h1>
+<p>This is a website with multiple pages, including a simulated login and registration system.</p>
+<img src="{{ url_for('static', filename='image/gym4.jpg') }}" width="900" height="700">
+<img src="{{ url_for('static', filename='image/gym7.jpg') }}" width="900" height="700">
 {% endblock %}
-
